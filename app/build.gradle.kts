@@ -103,8 +103,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.simple.tools.commons)
-
+    implementation(project(":commons"))
     implementation(libs.bundles.lifecycle)
     implementation(libs.bundles.compose)
     debugImplementation(libs.bundles.compose.preview)
